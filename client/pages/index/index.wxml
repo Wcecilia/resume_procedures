@@ -1,0 +1,44 @@
+<!--index.wxml-->
+<view class="container">
+  <view id="head">
+    <image class="bg-img" mode="aspectFit" src="./img/bg.jpg"></image>
+    <image class="person-img" mode="aspectFit" src="./img/person.jpg"></image>
+    <view bindtap="tel">
+      <image class="tel-img" model="aspectFit" src="./img/tel.jpg"></image>
+    </view>
+  </view>
+  <view id="content">
+    <swiper>
+      <swiper-item>
+        <view class="sheet">
+          <view class="content-head">
+            <image class="content-head-img" src="./img/pic.png"></image>
+          </view>
+          <view class="content-list">
+            <text class="textH1">wangpiahong</text>
+            <text>xingbie</text>
+            <text>xxxxxx</text>
+            <text>9999999</text>
+            <text>sdfjlsdfjlsjdflj</text>
+          </view>
+        </view>
+      </swiper-item>
+
+      <swiper-item>
+        <view class="sheet">
+          <view class="content-head">
+            <image class="content-head-img" src="./img/pic.png"></image>
+          </view>
+          <view class="content-list">
+            <text class="textH1">wangpiahong</text>
+            <text>xingbie2</text>
+            <text>xxxxxx</text>
+            <text>9999999</text>
+            <text>sdfjlsdfjlsjdflj</text>
+          </view>
+        </view>
+      </swiper-item>
+    </swiper>
+
+  </view>
+</view>
