@@ -7,64 +7,90 @@
   align-items: center;
   justify-content: flex-start;
   padding: 0;
-  background-color: #dddddd;
+  background-color: #40405a;
 }
 
 #head {
   width: 100%;
   height: 300rpx;
-  background-color: red;
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column-reverse;
   justify-content: flex-start;
-  align-content: center;
+  align-content: center; 
   margin: 0;
-  padding: 0;
-}
-.bg-img {
-  display: block;
-  width: 750rpx;
-  height: 300rpx;
+  padding: 0; */
 }
 .person-img {
   display: block;
-  width: 300rpx;
-  height: 300rpx;
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 100%;
   position: absolute;
-  margin-left: 50rpx;
+  left: 50%;
+  margin-left: -100rpx;
+  top: 20rpx;
+}
+.content-tel{
+  display: block;
+  width: 750rpx;
+  text-align: center;
+  margin-top: 220rpx;
+  line-height: 40rpx;
 }
 .tel-img {
-  position: absolute;
-  width: 50rpx;
-  height: 50rpx;
-  right: 100rpx;
-  top: 200rpx;
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 20rpx;
 }
+/* .line{
+  width:750rpx;
+  border: 1px solid #fae5a6;
+} */
 #content {
   width: 100%;
-  height: 1000rpx;
-  background-color: #000;
+  height: 1700rpx;
+  background-color: #40405a;
+}
+.content-head{
+  height:50rpx;
+  background-color: #fae5a6;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 .content-head-img {
   display: block;
-  width: 750rpx;
-  height: 100rpx;
+  width: 66rpx;
+  height: 40rpx;
+  margin-left:20rpx;
+}
+.content-head text{
+  display: block;
+  font-size: 36rpx;
+  color: #3b3b47;
+  margin-left: 10rpx;
 }
 .content-list {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
   justify-items: flex-start;
-  padding: 40rpx;
+  padding: 20rpx 40rpx;
 }
-text {
+.content-list text {
   color: #fff;
-  margin: 20rpx 20rpx;
+  margin: 10rpx;
 }
-.textH1 {
+.content-list .textH1 {
   color: aqua;
   font-size: 18px;
   margin: 27rpx 0 25rpx -10rpx;
+}
+.content-list .work-img{
+  width: 500rpx;
+  height:300rpx;
+  margin-left: 80rpx;
 }
 swiper,
 swiper-item,
