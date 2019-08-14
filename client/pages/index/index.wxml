@@ -17,13 +17,9 @@
             <text>个人介绍</text>
           </view>
           <view class="content-list">
-            <text class="textH1">winni</text>
-            <text>性别：女</text>
-            <text>年龄：18</text>
-            <text>计算机专业</text>
-            <text>求职****岗位</text>
-            <text>居住某某小区</text>
-            <text>暮色苍茫看劲松，乱云飞渡仍从容。天生一个仙人洞，无限风光在险峰。</text>
+            <block wx:for="{{stringArray[0]}}">
+              <text class="{{item.style}}">{{item.text}}</text>
+            </block>
           </view>
         </view>
       </swiper-item>
@@ -36,11 +32,9 @@
           </view>
           <view class="content-list">
             <image class="work-img" src="./img/work.png"></image>
-            <text class="textH1">某某年-某某年</text>
-            <text>某某公司担任某某岗位</text>
-            <text>从事某某岗位</text>
-            <text>绣幄鸳鸯柱，红情密、腻云低护秦树。芳根兼倚，花梢钿合</text>
-            <text>秋风夜渡河，吹却雁门桑。遥见胡地猎，鞴马宿严霜。</text>
+            <block wx:for="{{stringArray[1]}}">
+              <text class="{{item.style}}">{{item.text}}</text>
+            </block>
           </view>
         </view>
       </swiper-item>
